@@ -4,6 +4,8 @@ A free batch-printing tool for Windows, in the spirit of Print Conductor. Build 
 
 Single C# source file, no external dependencies: it compiles with the C# compiler that ships with Windows.
 
+![BatchPrinter screenshot](docs/screenshot.png)
+
 > **Note:** the application interface is currently in Italian.
 
 ## Features
@@ -26,7 +28,7 @@ Single C# source file, no external dependencies: it compiles with the C# compile
 
 ## Install
 
-**From a release:** download `BatchPrinter.exe` from the [Releases](../../releases) page and run it. Windows SmartScreen may warn because the file is not code-signed.
+**From a release:** on the [Releases](../../releases) page, either download `BatchPrinter.exe` and run it directly (Windows SmartScreen may warn because the file is not code-signed), or download `BatchPrinter-installer.zip`, extract it and run `install.bat` for a full install (Start menu, "Send to" and right-click integration).
 
 **From source:** run `install.bat`. It compiles the source with the Windows built-in compiler, installs to `%LOCALAPPDATA%\BatchPrinter`, creates the Start menu and "Send to" shortcuts and, if you accept, adds a right-click entry "Stampa con BatchPrinter" for files and folders. Run `disinstalla.bat` to remove everything.
 

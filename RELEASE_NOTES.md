@@ -6,4 +6,6 @@ First public release of BatchPrinter, a free batch-printing tool for Windows.
 - Copies, collate, duplex, page ranges, profiles, 8 themes
 - Single instance with "Send to" and right-click integration
 
+**Downloads:** `BatchPrinter.exe` (run directly) or `BatchPrinter-installer.zip` (extract and run `install.bat`; `disinstalla.bat` removes it).
+
 Requires Windows 10/11 and .NET Framework 4.8. The executable is not code-signed, so SmartScreen may show a warning. The interface is in Italian.
